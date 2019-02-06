@@ -4,6 +4,7 @@ import datetime
 import random
 import Search_dic as search_mod
 import command_mod1 as command_list
+import matbread_emoji as matbread
 
 now=datetime.datetime.now()
 
@@ -57,6 +58,17 @@ async def on_message(message):
                 embed.set_footer(text="powered by daum dictionary")
                 await app.send_message(message.channel,embed=embed)
             
+            if message.content.startswith("==>마빵티콘"):
+                if(message.content=="==>마빵티콘"):
+                    embed = matbread.matbread_help()
+                    await app.send_message(message.channel,embed=embed)
+                    return None
+                word=message.content[8:]
+                code=matbread.matbread_select(word)
+                embed=discord.Embed()
+                embed.set_image(url=str("https://i.imgur.com/"+str(code)+".png"))
+                await app.send_message(message.channel,embed=embed)
+
             if message.content=="==>박준성":
                 url='https://i.imgur.com/'
                 code=['cM4rTlw','mBWCb1s','8Uj7zWf','g5PeI4l']
