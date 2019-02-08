@@ -5,6 +5,7 @@ import random
 import Search_dic as search_mod
 import command_mod1 as command_list
 import matbread_emoji as matbread
+import So_in_su as sis
 
 now=datetime.datetime.now()
 
@@ -17,8 +18,9 @@ async def on_ready():
     print(app.user.name)
     print(app.user.id)
     print("==========")
-    
-    await app.change_presence(game=discord.Game(name="하나 둘 셋 야!",type=1))
+
+    await app.change_presence(game=discord.Game(name="안녕하세요!",type=1))
+
 
 @app.event
 async def on_message(message):
@@ -69,6 +71,13 @@ async def on_message(message):
                 embed.set_image(url=str("https://i.imgur.com/"+str(code)+".png"))
                 await app.send_message(message.channel,embed=embed)
 
+            if message.content.startswith("==>소인수분해"):
+                num=int(message.content[9:])
+                print(num)
+                word=sis.so_in_su(num)
+                await app.send_message(message.channel,word)
+
+
             if message.content=="==>박준성":
                 url='https://i.imgur.com/'
                 code=['cM4rTlw','mBWCb1s','8Uj7zWf','g5PeI4l']
@@ -88,6 +97,7 @@ async def on_message(message):
                 embed=discord.Embed(title="왜구루냥?",color=0x00ff00)
                 embed.set_image(url=url)
                 await app.send_message(message.channel,embed=embed)
+            
         else:
             return None
     except Exception as e:

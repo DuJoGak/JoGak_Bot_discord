@@ -102,3 +102,54 @@
 ==>마빵티콘 youguys on 22:18:58
 ==>심영티콘 on 22:18:58
 ==>마빵티콘 on 22:18:58
+==>마빵티콘 on 22:54:44
+==>마빵티콘 hate_1 on 22:54:44
+==>마빵티콘 hate_2 on 22:54:44
+==>마빵티콘 bty on 22:54:44
+==>마빵티콘 cowupper on 22:54:44
+==>마빵티콘 lol on 22:54:44
+==>박준성 on 22:54:44
+==>박준성 on 22:54:44
+==>박준성 on 22:54:44
+==>박준성 on 22:54:44
+==>박준성 on 22:54:44
+==>마빵티콘 shipduck on 22:54:44
+==>박준성 on 22:54:44
+==>박준성 on 22:54:44
+==>박준성 on 22:54:44
+==>박준성 on 22:54:44
+==>박준성 on 22:54:44
+==>마빵티콘 alphago on 22:54:44
+==>박준성 on 22:54:44
+==>마빵티콘 itachi on 22:54:44
+==>마빵티콘 itachi on 22:54:44
+==>소인수분해 4 on 22:55:49
+-> Error Code: must be real number, not str
+==>소인수분해 4 on 22:56:46
+-> Error Code: local variable 'word' referenced before assignment
+==>소인수분해 4 on 22:57:14
+-> Error Code: unsupported operand type(s) for +: 'int' and 'str'
+==>소인수분해 4 on 22:58:12
+==>소인수분해 4 on 22:58:37
+==>소인수분해 4 on 22:59:34
+==>소인수 4 on 23:5:57
+==>소인수분해 4 on 23:10:46
+-> Error Code: str() takes at most 3 arguments (4 given)
+==>소인수분해 4 on 23:11:8
+-> Error Code: str() argument 3 must be str, not int
+==>소인수분해 4 on 23:20:2
+==>커맨드 on 23:22:7
+==>소인수분해 4432 on 23:22:7
+==>마빵티콘 on 23:22:7
+==>마빵티콘 bty on 23:22:7
+==>소인수분해 4 on 23:23:48
+==>소인수분해 443 on 23:23:48
+==>소인수분해 3234 on 23:30:23
+-> Error Code: name 'n' is not defined
+==>소인수분해 3323 on 23:30:55
+==>소인수분해 4432 on 23:35:13
+==>데스트니 on 23:35:13
+==>케맨드 on 23:35:13
+==>마빵티콘 on 23:35:13
+==>shipduck on 23:35:13
+==>마빵티콘 shipduck on 23:35:13
