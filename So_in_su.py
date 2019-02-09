@@ -1,15 +1,27 @@
 import math
+
+def is_prime(n):
+    i=2
+    while i<=math.sqrt(n):
+        if int(n%i)==0:
+            return False
+        i+=1
+    return True
+
 def so_in_su(n):
     word=""
     primes=[]
-    d = 2
-    m=n/2
-    while d <= m:
-        if n%d == 0:
-            n = n/d
-            primes.insert(0,int(d))
-        else:
-            d = d +1
+    i=2
+    if is_prime(n)==False:
+        while n!=1:
+            if n%i==0:
+                primes.insert(0,i)
+                n/=i
+            else:
+                i+=1
+    else:
+        print(n,", 소수입니다.")
+        return 0
     cnt = 2
     x = len(primes)
     flag = 0

@@ -14,7 +14,6 @@ def matbread_help():
         Nofuture= 미래가 없어
         Question= ?????
         shipduck= 나도 쉽덕노래 들을래
-        sunggi  = 성기
         ttat    = 퉷
         youguys = 이놈시끼들
     """)
