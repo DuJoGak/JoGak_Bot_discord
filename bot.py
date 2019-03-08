@@ -6,6 +6,7 @@ import Search_dic as search_mod
 import command_mod1 as command_list
 import matbread_emoji as matbread
 import So_in_su as sis
+import School_meal
 
 now=datetime.datetime.now()
 
@@ -76,6 +77,16 @@ async def on_message(message):
                 print(num)
                 word=sis.so_in_su(num)
                 await app.send_message(message.channel,word)
+
+            if message.content.startswith("==>인남급식"):
+                num=message.content[8:]
+                print(num)
+                if len(str(num))>2:
+                    meal="날짜만 쳐라 좀"
+                else:
+                    meal=School_meal.school_meal(int(num))
+                embed=discord.Embed(title="인남 급식",description=str(meal),color=0x00ff00)
+                await app.send_message(message.channel,embed=embed)
 
 
             if message.content=="==>박준성":

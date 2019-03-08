@@ -163,3 +163,59 @@
 ==>박준성 on 9:58:27
 ==>소인수분해 1024 on 12:29:56
 ==>소인수분해 12 on 12:29:56
+==>데스티니 on 18:26:26
+==>커맨드 on 18:26:26
+==>마빵티콘 2 on 18:26:26
+==>마빵티콘 on 18:26:26
+==>마빵티콘 alphago on 18:26:26
+==>인남급식 8 on 19:0:43
+-> Error Code: 'Message' object is not subscriptable
+==>인남급식 8 on 19:1:43
+-> Error Code: 'Message' object is not subscriptable
+==>인남급식 8 on 19:5:1
+-> Error Code: 'Message' object is not subscriptable
+==>인남급식 8 on 19:6:36
+-> Error Code: 'Message' object is not subscriptable
+==>인남급식 8 on 19:7:21
+==>인남급식 12 on 19:10:21
+==>인남급식 11 on 19:11:18
+==>인남급식 0311 on 19:11:18
+-> Error Code: list index out of range
+==>인남급식 8 on 19:15:35
+-> Error Code: object of type 'int' has no len()
+==>인남급식 12 on 19:16:9
+-> Error Code: type object 'datetime.datetime' has no attribute 'strfttime'
+==>인남급식 12 on 19:16:42
+-> Error Code: must be str, not int
+==>인남급식 11 on 19:17:23
+==>인남급식 11 on 19:18:48
+==>인남급식 0311 on 19:18:48
+-> Error Code: list index out of range
+==>인남급식 20190311 on 19:18:48
+-> Error Code: list index out of range
+==>인남급식 0311 on 19:20:31
+-> Error Code: list index out of range
+==>인남급식 0311 on 19:21:29
+-> Error Code: list index out of range
+==>인남급식 0311 on 19:22:17
+-> Error Code: list index out of range
+==>인남급식 0311 on 19:22:44
+-> Error Code: list index out of range
+==>인남급식 0311 on 19:23:22
+-> Error Code: list index out of range
+==>인남급식 11 on 19:23:22
+==>인남급식 08 on 19:23:22
+==>인남급식 0311 on 19:25:14
+-> Error Code: list index out of range
+==>인남급식 03-11 on 19:25:14
+-> Error Code: invalid literal for int() with base 10: '03-11'
+==>인남급식 0311 on 19:26:38
+-> Error Code: list index out of range
+==>인남급식 0311 on 19:27:14
+==>인남급식 11 on 19:27:14
+==>인남급식 01111 on 19:27:14
+==>인남급식 1972 11 21 on 19:27:14
+==>인남급식 김두한 on 19:27:14
+==>인남급식 오랜 지병 on 19:27:14
+==>인남급식 고혈압 on 19:27:14
+==>인남급식 쓰러짐 on 19:27:14
