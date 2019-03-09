@@ -7,11 +7,12 @@ import command_mod1 as command_list
 import matbread_emoji as matbread
 import So_in_su as sis
 import School_meal
+import token_private
 
 now=datetime.datetime.now()
 
 app = discord.Client()
-token="NTQxNDc3MTUwNzE3Mzc4NTcw.DzgBkg.R_DuRzdtIkxGPdvLjEeDRi36-PA"
+token=token_private.Token
 
 @app.event
 async def on_ready():
