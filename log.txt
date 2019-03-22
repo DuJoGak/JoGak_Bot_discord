@@ -226,3 +226,33 @@
 ==>인남급식 11 on 19:40:26
 ==>인남급식 10 on 19:40:26
 ==>인남급식 13 on 11:54:38
+==>마빵티콘 on 12:17:9
+==>마빵티콘 lol on 12:17:9
+==>마빵티콘 시발 on 12:17:9
+==>인남급식 12 on 19:51:57
+==>마빵 on 19:51:57
+==>마빵 on 19:51:57
+==>인남급식 12 on 20:46:22
+==>calculate await app.send_message(message.channel,str(os.getcwd())) on 20:54:3
+-> Error Code: invalid syntax (<string>, line 1)
+==>calculate str(os.getcwd()) on 20:54:3
+==>calculate str(os.environ()) on 20:54:3
+-> Error Code: '_Environ' object is not callable
+==>calculate str(os.environ) on 20:54:3
+-> Error Code: BAD REQUEST (status code: 400)
+==>calculate str(os.popen("dir")) on 20:54:3
+==>calculate os.popen("dir") on 20:54:3
+==>calculate sum=os.popen("dir") on 20:54:3
+-> Error Code: invalid syntax (<string>, line 1)
+==>calculate import time on 20:54:3
+-> Error Code: invalid syntax (<string>, line 1)
+==>calculate time.time() on 20:54:3
+-> Error Code: name 'time' is not defined
+==>돈받기 등록 on 19:36:37
+-> Error Code: name 'f' is not defined
+==>돈받기 등록 on 19:37:33
+-> Error Code: must be str, not int
+==>돈받기 등록 on 19:38:32
+==>롤 두조갓 on 20:49:53
+==>롤 마빵 on 20:49:53
+==>롤 SKT T1 Fucker on 20:49:53

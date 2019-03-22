@@ -8,6 +8,9 @@ import matbread_emoji as matbread
 import So_in_su as sis
 import School_meal
 import token_private
+import random_money
+import os
+import lol_api
 
 now=datetime.datetime.now()
 
@@ -16,6 +19,7 @@ token=token_private.Token
 
 @app.event
 async def on_ready():
+    print("==========")
     print("다음으로 로그인합니다 : ")
     print(app.user.name)
     print(app.user.id)
@@ -42,9 +46,16 @@ async def on_message(message):
             if message.content=="==>데스티니":
                 await app.send_message(message.channel,"개똥겜")
             
+            if message.content=="==>마빵":
+                await app.send_message(message.channel,"이가 마빵마빵")
+            
             if message.content.startswith("==>시즈"):
                 call=message.content[6:]+" 야 시즈하자"
                 await app.send_message(message.channel,call)
+            
+            if message.content=="==>돈받기 등록":
+                random_money.signup(message.author.id)
+                await app.send_message(message.channel,"등록완료")
             
             if message.content.startswith("==>calculate"):
                 sum=eval(message.content[12:])
@@ -72,6 +83,11 @@ async def on_message(message):
                 embed=discord.Embed()
                 embed.set_image(url=str("https://i.imgur.com/"+str(code)+".png"))
                 await app.send_message(message.channel,embed=embed)
+
+            if message.content.startswith("==>롤"):
+                nickname=message.content[5:]
+                a=lol_api.lol_read(nickname)
+                await app.send_message(message.channel,a)
 
             if message.content.startswith("==>소인수분해"):
                 num=int(message.content[9:])
