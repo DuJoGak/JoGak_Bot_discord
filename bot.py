@@ -10,22 +10,28 @@ import So_in_su as sis
 now=datetime.datetime.now()
 
 app = discord.Client()
-token="NTQxNDc3MTUwNzE3Mzc4NTcw.DzgBkg.R_DuRzdtIkxGPdvLjEeDRi36-PA"
+token="NTUzNzY4NTg0MjIxMDMyNDQ4.XUGz9A.P-2Gw0Yk4nBIwugfmKqu9XSwonw"
 
 @app.event
 async def on_ready():
     print("다음으로 로그인합니다 : ")
     print(app.user.name)
     print(app.user.id)
+
+
+
+
+
+
+    -
+    
     print("==========")
 
     await app.change_presence(game=discord.Game(name="==>커맨드를 통해 명령어를 확인",type=1))
 
 
 @app.event
-async def on_message(message):
-    if message.author.bot:
-            return None
+async def on_message(message/one
     chat_log=open("log.txt",'a')
     try:
         if message.content.startswith("==>"):
