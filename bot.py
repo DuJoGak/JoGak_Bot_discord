@@ -17,14 +17,6 @@ async def on_ready():
     print("다음으로 로그인합니다 : ")
     print(app.user.name)
     print(app.user.id)
-
-
-
-
-
-
-    -
-    
     print("==========")
 
     await app.change_presence(game=discord.Game(name="==>커맨드를 통해 명령어를 확인",type=1))
