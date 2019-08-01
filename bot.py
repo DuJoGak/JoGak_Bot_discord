@@ -6,11 +6,12 @@ import Search_dic as search_mod
 import command_mod1 as command_list
 import matbread_emoji as matbread
 import So_in_su as sis
+import token_private
 
 now=datetime.datetime.now()
 
 app = discord.Client()
-token="NTUzNzY4NTg0MjIxMDMyNDQ4.XUGz9A.P-2Gw0Yk4nBIwugfmKqu9XSwonw"
+token=token_private.distoken
 
 @app.event
 async def on_ready():
@@ -23,7 +24,7 @@ async def on_ready():
 
 
 @app.event
-async def on_message(message/one
+async def on_message(message):
     chat_log=open("log.txt",'a')
     try:
         if message.content.startswith("==>"):
