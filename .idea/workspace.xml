@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564b0685-a7d7-47c0-b5d0-91a62aba8708" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test_bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_bot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NotoSansCJKkr-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School_meal.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command_mod1.py" beforeDir="false" afterPath="$PROJECT_DIR$/command_mod1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="DuJoGak &lt;kr27890@naver.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xq3eMHUpgyA3wDd4ZRRRAlw9xq" />
@@ -35,30 +37,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Testing_meals">
-    <configuration name="Testing_meals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test_bot" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Testing_meals.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kr278\PycharmProjects\JoGak_Bot_discord" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kr278\PycharmProjects\JoGak_Bot_discord" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.bot">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python">
       <module name="test_bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,9 +70,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="meals_parser (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meals_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="meals_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\kr278\PycharmProjects\JoGak_Bot_discord\meals_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Testing_meals" />
+        <item itemvalue="Python.meals_parser (1)" />
+        <item itemvalue="Python.meals_parser" />
       </list>
     </recent_temporary>
   </component>
@@ -97,47 +130,80 @@
       <option name="presentableId" value="Default" />
       <updated>1549187366603</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update discord.py to discord.ext, &#10;and editing School meal parsing sequence(not ended)">
+      <created>1631079422879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631079422879</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update discord.py to discord.ext, &#10;and editing School meal parsing sequence(not ended)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update discord.py to discord.ext, &#10;and editing School meal parsing sequence(not ended)" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="208" y="141" key="CommitChangelistDialog2" timestamp="1631079421187">
+      <screen x="0" y="0" width="1855" height="1080" />
+    </state>
+    <state x="208" y="141" key="CommitChangelistDialog2/0.0.1855.1080@0.0.1855.1080" timestamp="1631079421187" />
     <state x="972" y="284" key="FileChooserDialogImpl" timestamp="1631069137858">
       <screen x="0" y="0" width="1855" height="1080" />
     </state>
     <state x="972" y="284" key="FileChooserDialogImpl/0.0.1855.1080@0.0.1855.1080" timestamp="1631069137858" />
-    <state width="1118" height="301" key="GridCell.Tab.0.bottom" timestamp="1631079257329">
+    <state width="1016" height="298" key="GridCell.Tab.0.bottom" timestamp="1631153306566">
       <screen x="0" y="0" width="1855" height="1080" />
     </state>
-    <state width="1118" height="301" key="GridCell.Tab.0.bottom/0.0.1855.1080@0.0.1855.1080" timestamp="1631079257329" />
-    <state width="1118" height="301" key="GridCell.Tab.0.center" timestamp="1631079257328">
+    <state width="1016" height="298" key="GridCell.Tab.0.bottom/0.0.1855.1080@0.0.1855.1080" timestamp="1631153306566" />
+    <state width="1016" height="298" key="GridCell.Tab.0.center" timestamp="1631153306565">
       <screen x="0" y="0" width="1855" height="1080" />
     </state>
-    <state width="1118" height="301" key="GridCell.Tab.0.center/0.0.1855.1080@0.0.1855.1080" timestamp="1631079257328" />
-    <state width="1118" height="301" key="GridCell.Tab.0.left" timestamp="1631079257327">
+    <state width="1016" height="298" key="GridCell.Tab.0.center/0.0.1855.1080@0.0.1855.1080" timestamp="1631153306565" />
+    <state width="1016" height="298" key="GridCell.Tab.0.left" timestamp="1631153306565">
       <screen x="0" y="0" width="1855" height="1080" />
     </state>
-    <state width="1118" height="301" key="GridCell.Tab.0.left/0.0.1855.1080@0.0.1855.1080" timestamp="1631079257327" />
-    <state width="1118" height="301" key="GridCell.Tab.0.right" timestamp="1631079257328">
+    <state width="1016" height="298" key="GridCell.Tab.0.left/0.0.1855.1080@0.0.1855.1080" timestamp="1631153306565" />
+    <state width="1016" height="298" key="GridCell.Tab.0.right" timestamp="1631153306566">
       <screen x="0" y="0" width="1855" height="1080" />
     </state>
-    <state width="1118" height="301" key="GridCell.Tab.0.right/0.0.1855.1080@0.0.1855.1080" timestamp="1631079257328" />
+    <state width="1016" height="298" key="GridCell.Tab.0.right/0.0.1855.1080@0.0.1855.1080" timestamp="1631153306566" />
+    <state width="1016" height="372" key="GridCell.Tab.1.bottom" timestamp="1631153276974">
+      <screen x="0" y="0" width="1855" height="1080" />
+    </state>
+    <state width="1016" height="372" key="GridCell.Tab.1.bottom/0.0.1855.1080@0.0.1855.1080" timestamp="1631153276974" />
+    <state width="1016" height="372" key="GridCell.Tab.1.center" timestamp="1631153276974">
+      <screen x="0" y="0" width="1855" height="1080" />
+    </state>
+    <state width="1016" height="372" key="GridCell.Tab.1.center/0.0.1855.1080@0.0.1855.1080" timestamp="1631153276974" />
+    <state width="1016" height="372" key="GridCell.Tab.1.left" timestamp="1631153276974">
+      <screen x="0" y="0" width="1855" height="1080" />
+    </state>
+    <state width="1016" height="372" key="GridCell.Tab.1.left/0.0.1855.1080@0.0.1855.1080" timestamp="1631153276974" />
+    <state width="1016" height="372" key="GridCell.Tab.1.right" timestamp="1631153276974">
+      <screen x="0" y="0" width="1855" height="1080" />
+    </state>
+    <state width="1016" height="372" key="GridCell.Tab.1.right/0.0.1855.1080@0.0.1855.1080" timestamp="1631153276974" />
     <state x="693" y="185" key="SettingsEditor" timestamp="1631069226141">
       <screen x="0" y="0" width="1855" height="1080" />
     </state>
     <state x="693" y="185" key="SettingsEditor/0.0.1855.1080@0.0.1855.1080" timestamp="1631069226141" />
+    <state x="519" y="276" key="Vcs.Push.Dialog.v2" timestamp="1631079675236">
+      <screen x="0" y="0" width="1855" height="1080" />
+    </state>
+    <state x="519" y="276" key="Vcs.Push.Dialog.v2/0.0.1855.1080@0.0.1855.1080" timestamp="1631079675236" />
+    <state x="298" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1631144986567">
+      <screen x="0" y="0" width="1855" height="1080" />
+    </state>
+    <state x="298" y="363" key="com.intellij.ide.util.TipDialog/0.0.1855.1080@0.0.1855.1080" timestamp="1631144986567" />
+    <state x="363" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631079563001">
+      <screen x="0" y="0" width="1855" height="1080" />
+    </state>
+    <state x="363" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1855.1080@0.0.1855.1080" timestamp="1631079563001" />
     <state x="245" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1631074848306">
       <screen x="0" y="0" width="1855" height="1080" />
     </state>
     <state x="245" y="243" width="672" height="678" key="search.everywhere.popup/0.0.1855.1080@0.0.1855.1080" timestamp="1631074848306" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bot.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

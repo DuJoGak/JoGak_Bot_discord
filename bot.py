@@ -1,13 +1,16 @@
+#사용하는 라이브러리
 import asyncio
 from discord.ext import commands
 import discord
 #import commands
 import datetime
 import random
+import os
 import Search_dic as search_mod
 import command_mod1 as command_list
 import matbread_emoji as matbread
 import So_in_su as sis
+import meals_parser as parse
 import token_private
 
 now=datetime.datetime.now()
@@ -30,9 +33,19 @@ async def ping(ctx):
     await ctx.send(f'{round(round(bot.latency,4)*1000)}ms')
 
 @bot.command(description='뭔갈 고를때')
-async def choose(ctx,*choices: str):
+async def 선택(ctx,*choices: str):
     """Chooses between multiple times"""
     await ctx.send(random.choice(choices))
+
+@bot.command(description='인천남고의 급식을 일주일치 가져온다.')
+async def 인남급식(ctx):
+    if parse.find_Meals()==0:
+        img=discord.File("Meals_parsed.jpg",filename="image.jpg")
+        embed=discord.Embed(title="인남급식",color=0x000000)
+        embed.set_image(url="attachment://image.jpg")
+        await ctx.send(embed=embed,file=img)
+    else:
+        await ctx.send("Find some bugs!")
 
 bot.run(token)
 '''
